@@ -6,6 +6,7 @@ class Input extends Component {
     return (
       <div>
       <input type="text"/>
+      <button>Valider</button>
       </div>
     )
   }
