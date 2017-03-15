@@ -7,7 +7,7 @@ class Items extends Component {
   render(){
     let items = ["jouer", "coder", "manger", "boire"];
     let itemsNodes = items.map((item)=>
-    <li>{item}</li>
+    <li key={item.toString()}>{item}</li>
   );
   return(
     <ul>{itemsNodes}</ul>
